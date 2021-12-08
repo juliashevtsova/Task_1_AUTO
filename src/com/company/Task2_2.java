@@ -14,6 +14,7 @@ public class Task2_2 {
         {
             answer = answer * i;
         }
+
         System.out.println(answer);
     }
 }
