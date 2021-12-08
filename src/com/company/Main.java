@@ -24,13 +24,13 @@ public class Main {
 //        System.out.println("Min:"+ answer);
 //        in.close();                                                       другой способ
 
-        if ((number1 < number2) && (number1 < number3) && (number1 < number4)) {
+        if ((number1 <= number2) && (number1 <= number3) && (number1 <= number4)) {
             System.out.println("Min:"+ number1);
-        } else if ((number2 < number1) && (number2 < number3) && (number2 < number4)) {
+        } else if ((number2 <= number1) && (number2 <= number3) && (number2 <= number4)) {
             System.out.println("Min:"+ number2);
-        } else if ((number3 < number1) && (number3 < number2) && (number3 < number4)) {
+        } else if ((number3 <= number1) && (number3 <= number2) && (number3 <= number4)) {
             System.out.println("Min:"+ number3);
-        } else if ((number4 < number1) && (number4 < number2) && (number4 < number3)) {
+        } else {
             System.out.println("Min:"+ number4);
         }
     }
