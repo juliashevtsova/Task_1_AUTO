@@ -10,11 +10,10 @@ public class Task1_4 {
         String name1 = in.nextLine();
         System.out.print("Введите name2:");
         String name2 = in.nextLine();
-         int answer = name1.compareTo(name2);
 
-        if(answer == 0)
+        if(name1.equalsIgnoreCase(name2))
         {
-            System.out.print(name1+ " и " + name2 +" - тезки");
+            System.out.print(name1.toUpperCase()+ " и " + name2 +" - тезки");
 
         }
         else {
@@ -23,3 +22,5 @@ public class Task1_4 {
 
     }
 }
+
+

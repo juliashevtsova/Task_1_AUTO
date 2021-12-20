@@ -8,17 +8,10 @@ public class Task2_5 {
         Scanner in = new Scanner(System.in);
         int x = 0;
 
-        int i = 0;
-
-        while (i > -6) {
+        for(int i=0; i<10; i++)
+        {
             System.out.println(x);
             x = x-5;
-
-            if (x ==-100)
-            {
-                 break;
-            }
-            i++;
         }
     }
 }
