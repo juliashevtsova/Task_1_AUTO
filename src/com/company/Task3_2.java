@@ -26,17 +26,13 @@ public class Task3_2 {
             {
                 resultArray = array[i];
             }
-            else if (resultArray < array[i])
-            {
-               break;
-            }
         }
 
         for( int i =0; i<N; i++)
         {
             if(resultArray==array[i])
             {
-                System.out.println("Минимальное число array["+ i +"]: " + array[i]);
+                System.out.println("Минимальное число - это array["+ i +"]: " + array[i]);
             }
         }
     }
