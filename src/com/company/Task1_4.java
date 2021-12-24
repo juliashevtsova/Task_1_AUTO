@@ -11,9 +11,9 @@ public class Task1_4 {
         System.out.print("Введите name2:");
         String name2 = in.nextLine();
 
-        if(name1.equalsIgnoreCase(name2))
+        if(name1.trim().equalsIgnoreCase(name2.trim()))
         {
-            System.out.print(name1.toUpperCase()+ " и " + name2 +" - тезки");
+            System.out.print(name1 + " и " + name2 +" - тезки");
 
         }
         else {
