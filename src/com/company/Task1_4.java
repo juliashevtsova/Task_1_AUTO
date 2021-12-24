@@ -13,7 +13,7 @@ public class Task1_4 {
 
         if(name1.trim().equalsIgnoreCase(name2.trim()))
         {
-            System.out.print(name1 + " и " + name2 +" - тезки");
+            System.out.print(name1.trim() + " и " + name2.trim() +" - тезки");
 
         }
         else {
