@@ -12,7 +12,7 @@ public class Task3_2 {
 
         for( int i =0; i<N; i++)
         {
-            System.out.print("Введите элемент array[" + i +"]: ");
+            System.out.print("Введите элемент array["+ i +"]: ");
             array[i]= in.nextInt();
         }
 
