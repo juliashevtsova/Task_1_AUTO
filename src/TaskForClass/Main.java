@@ -13,8 +13,5 @@ public class Main {
                 dog.energy = 4;
 
                 dog.respond();
-
-
         }
-
 }
